@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Notable&display=swap" rel="stylesheet">
+
+    <title>Code Quiz</title>
+</head>
+<body>
+<!----My styling-->
+    <div class="container">
+        <section class="row align-items-center">
+            <div class="col-md-4">
+                <div class="block">
+                    <p>UNC</p>
+                        <hr />
+                    <h1>{Coding}</h1>
+                    <h3>BOOTCAMP</h3>
+                         <hr />
+                    <P2> Quiz and Study Guide </P2>
+                </div>
+            </div>
+<!---quiz container-->
+<div class="col-md-7" class="hide">
+    <!--<div class="quiz-block" class="hide">-->
+        <div class="card" class="hide">
+            <div class="card-body"></div>
+            <!--question generated here-->
+            <div id="question"></div>
+            <hr />
+              <div class="btn-grid">
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn1"><span id="choice2"></span></button>
+                <button id="btn1"><span id="choice3"></span></button>
+                <button id="btn4"><span id="choice4"></span></button>
+            </div>
+              <div id="quiz"></div>
+              <div id="results"></div>
+              <hr />
+              <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+            
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+<div>
+    <button id="start-button" class="hide">Start Quiz!</button>
+  </div>
+  <!---Jquery-->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!---javascript-->
+  <script src="script.js"></script>
+</body>
+</html>
+
